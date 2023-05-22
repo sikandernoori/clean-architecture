@@ -1,0 +1,17 @@
+{
+    "version": "0.0.1",
+    "configurations": [
+      {
+        "name": "demo",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main.dart",
+      },
+      {
+        "name": "integration_tests",
+        "request": "launch",
+        "type": "dart",
+        "program": "integration_test/features/counter/counter_page_test.dart",
+      }
+    ]
+  }

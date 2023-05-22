@@ -1,0 +1,1 @@
+enum CounterType { increment, decrement }

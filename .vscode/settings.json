@@ -1,0 +1,83 @@
+{
+    "gitlens.keymap": "alternate",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 150,
+    "dart.debugExternalLibraries": true,
+    "dart.debugSdkLibraries": true,
+    "editor.autoClosingOvertype": "never",
+    "dart.previewDebuggerStepBack": true,
+    "editor.autoSurround": "never",
+    "dart.lineLength": 150,
+    "dart.analyzerAdditionalArgs": [
+        "--enable-completion-model"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true,
+        "source.sortMembers": false
+    },
+    "[dart]": {
+        "editor.rulers": [
+            150
+        ],
+    },
+    "editor.suggestSelection": "first",
+    "dart.promptToGetPackages": false,
+    "editor.autoClosingQuotes": "never",
+    "terminal.integrated.scrollback": 10000,
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
+    "workbench.activityBar.visible": true,
+    "numberedBookmarks.navigateThroughAllFiles": "replace",
+    "dart.flutterAdditionalArgs": [
+        "--verbose"
+    ],
+    "dart.flutterRunLogFile": "/Users/silver/Desktop/flutterRun.txt",
+    "dart.flutterDaemonLogFile": "/Users/silver/Desktop/flutterDaemon.txt",
+    "editor.mouseWheelZoom": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "dart.enableSdkFormatter": false,
+    "debug.console.wordWrap": false,
+    "workbench.startupEditor": "welcomePage",
+    "editor.largeFileOptimizations": false,
+    "python.insidersChannel": "weekly",
+    "diffEditor.renderSideBySide": true,
+    "dart.warnWhenEditingFilesInPubCache": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "files.trimTrailingWhitespace": true,
+    "dart.debugExternalPackageLibraries": true,
+    "editor.bracketPairColorization.enabled": true,
+    "dart.showInspectorNotificationsForWidgetErrors": false,
+    "gitlens.defaultTimeFormat": "HH:mm",
+    "gitlens.defaultDateFormat": "DD.MM.YYYY HH:mm",
+    "gitlens.defaultDateShortFormat": "DD.MM.YYYY HH:mm",
+    "debug.console.collapseIdenticalLines": false,
+    // "dart.flutterSdkPath": "/Users/skandar/flutter",
+    "dart.flutterSdkPath": ".fvm/flutter_sdk",
+    "dart.flutterSdkPaths": [".fvm/flutter_sdk"],
+    // Remove .fvm files from search
+    "search.exclude": {
+        "**/.fvm": true
+    },
+    // Remove from file watching
+    "files.watcherExclude": {
+        "**/.fvm": true
+    },
+    "flutter-coverage.coverageFileNames": [
+        "lcov.info",
+        "cov.xml",
+        "coverage.xml",
+        "jacoco.xml"
+    ],
+    "flutter-coverage.coverageFilePaths": [
+        "coverage"
+    ],
+    "flutter-coverage.lowCoverageThreshold": 50,
+    "flutter-coverage.sufficientCoverageThreshold": 70,
+}
